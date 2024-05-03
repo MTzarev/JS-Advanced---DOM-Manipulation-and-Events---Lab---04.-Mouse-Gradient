@@ -8,6 +8,6 @@ function attachGradientEvents() {
     document.getElementById('result').textContent = power + "%";
     }
     function gradientOut(event) {
-      document.getElementById('result').textContent = "";
+    document.getElementById('result').textContent = "";
     }
   };
