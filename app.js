@@ -7,7 +7,7 @@ function attachGradientEvents() {
     power = Math.trunc(power * 100);
     document.getElementById('result').textContent = power + "%";
     }
-    function gradientOut(event) {
+function gradientOut(event) {
     document.getElementById('result').textContent = "";
     }
   };
